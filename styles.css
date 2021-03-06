@@ -1,0 +1,51 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	text-align: center;
+}
+
+body{
+	background-image: linear-gradient(to top right, #1e1e1e, #2b2b2b);
+	background-repeat: no-repeat;
+}
+
+div.start-stop{
+	padding:0px 15px 5px 15px;
+}
+
+p{
+	margin-top: 15px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+}
+
+div.options{
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons{
+	cursor: pointer;
+	border: none;
+	padding: 2.5% 4%;
+	font-family:'Quicksand', sans-serif;
+	font-size: 1.2rem;
+	background-color:#0d93bc;
+	color: white;
+	border-radius: 5px;
+	flex-basis:  100%;
+}
+
+.buttons:hover{
+	background-color: #0576E8;
+}
+
+.resume.buttons{
+	margin-right: 3px; 
+}
+
+.reset.buttons{
+	margin-left: 2px;
+}
